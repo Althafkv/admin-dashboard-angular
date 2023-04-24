@@ -1,0 +1,39 @@
+
+
+              - Angular Project Workflow -
+            --------------------------------
+
+1. Create Project : ng new admin-dashboard
+2. Run Project : ng serve (in project folder)
+3. Install / add 3rd party libraries to complete project
+    - Install Angular meterial : ng add @angular/material
+        - To use any component from meterial : copy the api for perticular component and paste it on app.module.ts
+4. Delete all contents in app.component.html
+5. Check 3rd party libraries working in project or not
+    - if not import prebuild theme to your project style.css file
+6. Generate Components : ng g c component-name
+    - header
+    - footer
+    - sidebar
+    - dashboard
+        - card
+        - area-chart
+        - table
+        - pie-chart
+    - employees
+    - gallery
+    - contacts
+    - leads 
+7. Design Components
+8. set up path for component
+    - dashboard  
+    - employees
+    - gallery
+    - contacts
+    - leads 
+9. To add chart : use high chart angular by using "npm install highcharts-angular --save" command  
+    - Import HighchartsChartModule in AppModule    
+    - Install highcharts using command : npm install highcharts --save
+    - Import highcharts in components where we will display chart
+    
+
